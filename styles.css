@@ -1,0 +1,11 @@
+.caja {
+  /* radial-gradient nos permite crear degradados con formas de circulares surgiendo desde el centro dandole un tamaño */
+  width: 80%;
+  height: calc(300px * 2);
+  border: 2px solid red;
+  background: radial-gradient(circle at left, orange, red, lightblue);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: calc(300px * 2);
+}
